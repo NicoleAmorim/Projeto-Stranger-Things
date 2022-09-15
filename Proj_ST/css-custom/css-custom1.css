@@ -1,0 +1,258 @@
+::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #940202;
+    border-radius: 10px;
+    border: 1px solid #0000001c;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    filter: blur(100px);
+    overflow: hidden;
+    opacity: initial;
+}
+
+body {
+    background-image: url("../imagens/background.jpg");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+    overflow: overlay;
+    margin: 0%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.divBackground {
+    background-color: rgba(0, 0, 0, 0.750);
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    align-content: center;
+    overflow: hidden;
+}
+
+.margin {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.divTrilha {
+    background-color: red;
+    opacity: 0.5;
+    width: 100%;
+    height: min-content;
+    display: inline-block;
+    align-content: center;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+}
+
+nav a {
+    color: #fff;
+    justify-content: center;
+    margin: auto 9vh auto 9vh;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+nav a {
+    float: right;
+    list-style: none;
+}
+
+nav a:hover {
+    color: red;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.logo {
+    width: 8vw;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.logoMaior {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: 15%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.Episodio p {
+    height: 100px;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.Episodio h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Episodio {
+    text-align: justify;
+    padding: 5%;
+    padding-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.Episodio img {
+    height: 150px;
+    margin: 3%;
+    padding-left: 3%;
+}
+
+.Episodio:hover {
+    overflow: visible;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+h3,
+h4 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.imgDireita {
+    align-items: center;
+    margin: 3%;
+    float: left;
+}
+
+.imgTamanho {
+    width: 32%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border: 2px solid red;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.txtEsquerdo {
+    text-align: justify;
+    font-size: medium;
+    margin-right: 10%;
+    margin-top: 3%;
+    display: block;
+}
+
+.txtTamanho {
+    margin-left: 5%;
+    font-size: medium;
+}
+
+.txtTrilha {
+    text-align: center;
+    color: black;
+    margin-left: 10%;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+}
+
+footer a {
+    color: #fff;
+    margin:auto;
+    margin-left: 32vw;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+footer a:hover {
+    color: red;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}

@@ -1,0 +1,274 @@
+::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #940202;
+    border-radius: 10px;
+    border: 1px transparent #000000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    filter: blur(100px);
+    overflow: hidden;
+    opacity: initial;
+    -webkit-filter: blur(100px);
+}
+
+body {
+    background-image: url("../imagens/background.jpg");
+    background-attachment: fixed;
+    background-position: 100%;
+    background-size: cover;
+    overflow: overlay;
+    margin: 0%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.margin {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+h1, h2, h3, h4, h5, p, a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divBackground {
+    background-color: rgba(0, 0, 0, 0.750);
+    width: 100%;
+    color: #fff;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    padding: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.50);
+}
+
+#bg-conteudo {
+    background-color: #000000;
+    overflow: auto;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    position: relative;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    border: 2px solid rgba(255, 0, 0, 0.63)
+}
+
+#bg-conteudo:hover {
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 0.5s;
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+
+.imgTamanhoPersonagem{
+    width: 200px;
+    height: 200px;
+}
+
+a:hover {
+    cursor:pointer
+}
+
+.desc {
+    text-align: center;
+    opacity: 0.1;
+    font-size: 150%;
+    text-align: right;
+    color: rgba(255, 0, 0, 0.63);
+    text-decoration:underline;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.desc2 {
+    text-align: center;
+    opacity: 0.1;
+    margin-bottom: -190px;
+    font-size: 150%;
+    text-align: left;
+    color: rgba(255, 0, 0, 0.63);
+    text-decoration:underline;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+
+a:hover .desc{
+    opacity: 1;
+    transition:0.5s ease-in;
+    -webkit-transition:0.5s ease-in;
+    -moz-transition:0.5s ease-in;
+    -ms-transition:0.5s ease-in;
+    -o-transition:0.5s ease-in;
+}
+a:hover .desc2 {
+    opacity: 1;
+    transition:0.5s ease-in;
+    -webkit-transition:0.5s ease-in;
+    -moz-transition:0.5s ease-in;
+    -ms-transition:0.5s ease-in;
+    -o-transition:0.5s ease-in;
+}
+
+.imgesquerda {
+    float: left;
+    margin: 2vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: white;
+}
+
+.imgdireita {
+    float: right;
+    margin: 2vw;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: white;
+}
+
+.esquerda {
+    margin-left: 3%;
+    margin-right: 25%;
+}
+
+.direita {
+    margin-right: 3%;
+    margin-left: 25%;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+}
+
+nav a {
+    color: #fff;
+    justify-content: center;
+    margin: auto 9vh auto 9vh;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+nav a {
+    float: right;
+    list-style: none;
+}
+
+nav a:hover {
+    color: red;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.logo {
+    width: 8vw;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.logoMaior {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5%;
+}
+
+h4 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+}
+
+footer a {
+    color: #fff;
+    margin:auto;
+    margin-left: 32vw;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+footer a:hover {
+    color: red;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
